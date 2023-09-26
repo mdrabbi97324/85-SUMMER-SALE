@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1200px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+
+  .hero-img {
+    width: 300px;
+  }
+
+  .hero-para {
+    font-size: 1.5rem;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+    padding-left: 20px;
+  }
+
+  .main-section {
+    flex-direction: column;
+    padding: 10px 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin: 0 auto;
+    place-items: center;
+  }
+
+  .card {
+    padding: 1rem;
+    width: 280px;
+  }
+
+  .card-img {
+    padding: 20px 50px;
+  }
+
+  .cart-coupon,
+  .cart-purchase {
+    width: 250px;
+  }
+
+  .cart-section {
+    padding-top: 20px;
+  }
+}
